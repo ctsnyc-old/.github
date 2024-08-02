@@ -1,0 +1,52 @@
+name: 🐛Bug Report
+description: File a bug report here
+title: "[BUG]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! 🤗
+        Please make sure there aren't any open/closed issues for this topic before submitting. 😃
+        
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Description of the bug
+      description: Give us a brief description of what happened and what should have happened
+    validations:
+      required: true
+      
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Provide information about the environment where the bug occurs
+      placeholder: |
+        Microsoft Edge 120.1.2.3 on Windows 11 build 123456
+        On my workstation CTS-LAP-001
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: |
+        Provide any additional information such as logs, screenshots, etc.
+        If you received any error messages, request IDs, etc., please be sure to provide them here, as it helps us find and resolve the issue quicker.
+  - type: input
+    id: cwm-ticket
+    attributes:
+      label: CW Manage Ticket ID
+      description: If there is a CWM Ticket ID relating to this bug, please provide it here. Please make sure to merge and/or bundle all related tickets into one master ticket for easier triage.
+      placeholder: 123456
