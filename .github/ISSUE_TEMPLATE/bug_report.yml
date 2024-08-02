@@ -49,4 +49,4 @@ body:
     attributes:
       label: CW Manage Ticket ID
       description: If there is a CWM Ticket ID relating to this bug, please provide it here. Please make sure to merge and/or bundle all related tickets into one master ticket for easier triage.
-      placeholder: 123456
+      placeholder: "123456"
