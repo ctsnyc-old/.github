@@ -29,3 +29,9 @@ body:
       label: CW Manage Ticket ID
       description: If there is a CWM Ticket ID relating to this request, please provide it here. Please make sure to merge and/or bundle all related tickets into one master ticket for easier triage.
       placeholder: "123456"
+
+  - type: input
+    id: tracking-issue-reference
+    attributes:
+      label: Tracking Issue Reference
+      description: If there is a tracking issue in GitHub Projects that this feature should be added to, provide the link here. You can shortcut the link by typing ctsnyc/projects-tracking#[ISSUE NUMBER HERE].
