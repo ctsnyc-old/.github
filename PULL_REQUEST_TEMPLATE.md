@@ -36,6 +36,6 @@ Please provide some steps for the reviewer to test your change. If you have wrot
   Before submitting a Pull Request, please ensure you've done the following:
   - 👷‍♀️ Create small PRs. In most cases, this will be possible.
   - ✅ Provide test steps for your changes.
-  - 📝 Use descriptive, Convential commit messages per the [CTS Commits Guide](https://app.gitbook.com/o/FfdVRWpzGfitzWusQf4x/s/vVES7X6TL9e1SaxZfByj/development-and-engineering/git-and-version-control/reference/git-conventional-commits)
+  - 📝 Use descriptive, Conventional commit messages per the [CTS Commits Guide](https://app.gitbook.com/o/FfdVRWpzGfitzWusQf4x/s/vVES7X6TL9e1SaxZfByj/development-and-engineering/git-and-version-control/reference/git-conventional-commits)
   - 📗 Update any related documentation and include any relevant screenshots.
 -->
